@@ -1,0 +1,90 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: black;
+
+}
+
+header {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    background-color: rgb(7, 7, 7);
+    text-align: center;
+    
+}
+
+header h1 {
+    font-size: 40px;
+    padding-right: 10px;
+    color:rgb(113, 114, 175);
+}
+
+header p{
+    padding-top: 14px;
+    padding-right: 5px;
+    
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header a {
+    color: rgb(113, 114, 175);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+section {
+    padding: 20px; 
+    margin: 10px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+article {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article a:hover {
+    color:blue;
+    
+}
+
+
+main {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    color:aqua;
+    text-align: center;
+}
+
+
+

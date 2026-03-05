@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário</title>
+</head>
+<body>
+
+  <h1>Cadastro</h1>
+
+  <form id="meuFormulario">
+    
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" name="nome" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <button type="submit">Enviar</button>
+
+  </form>
+
+  <script>
+    const form = document.getElementById("meuFormulario");
+
+    form.addEventListener("submit", function(event) {
+      event.preventDefault(); // impede recarregar a página
+
+      const nome = document.getElementById("nome").value;
+      const email = document.getElementById("email").value;
+
+      alert("Nome: " + nome + "\nEmail: " + email);
+    });
+  </script>
+
+</body>
+</html>
